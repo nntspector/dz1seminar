@@ -9,7 +9,7 @@ Console.Write(String.Join(" ", array));
 Console.Write("]");
 int max = Max(array);
 int min = Min(array);
-Console.Write($" -> {max + min}");
+Console.Write($" -> {max - min}");
 
 int[] GetArray(int size, int minValue, int maxValue)
 {
